@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block title%}
+Main
+{% endblock %}
+{% block con %}
+<main class="container mx-auto px-6 py-10">
+        <h1 class="text-4xl font-bold text-yellow-500 text-center">SkyCapture</h1>
+        <p class="mt-4 text-lg text-gray-600 text-center">Добро пожаловать на официальный веб-сайт индивидуального проекта “SkyCapture” для участия во Все-Узбекистанском конкурсе “Ixtirochilikka qadam”.Проект “SkyCapture” основывается на созданий и разработке дрона на базе передовых технологий в лице нейронных сетей и искусственного интеллекта.Наше детище создано для решения задач решение которых требует больших усилий для простого человека,где важна автономность,хорошая проходимость,компактность и точность.И именно такими характеристиками обладают БПЛА(беспилотные летательные аппараты) вкупе с нейронными сетями.
+
+На этом сайте вы можете наблюдать на то,как развивается наш проект,на каком этапе мы находимся,и какими будут дальнейшие вектора развития и цели данного проекта </p>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+
+    <div class="flex flex-wrap md:-m-2 -m-1">
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="{% static 'img/stroim-pervyj-kvadrokopter-4.jpg' %}">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="{% static 'img/kkopter-1-01-0011.jpg' %}">
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="{% static 'img/postrijka-kvadrokoptera-1-.jpg' %}">
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="{% static 'img/depositphotos_495524500-stock-photo-f450-quadcopter-quad-copter-drone.jpg' %}">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="{% static 'img/kkopter-1-01-0011.jpg'%}">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="{% static 'img/01843136-600x450-7e90.jpg' %}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+{% endblock %}
